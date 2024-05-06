@@ -22,5 +22,12 @@
         "symfony/console": "^7.0",
         "illuminate/database": "^11.6",
         "fakerphp/faker": "^1.23"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alfianizzah\\Traspac\\TraspacServiceProvider"
+            ]
+        }
     }
 }
