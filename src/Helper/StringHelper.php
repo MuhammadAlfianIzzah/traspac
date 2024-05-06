@@ -2,6 +2,8 @@
 
 namespace Alfianizzah\Traspac\Helper;
 
+use Alfianizzah\Traspac\Models\UserModel;
+
 class StringHelper
 {
     public static function helloWorld()
@@ -22,5 +24,9 @@ class StringHelper
                 return $data[$randomIndex]["quote"];
             }
         }
+    }
+    public static function getUser()
+    {
+        return UserModel::get();
     }
 }
